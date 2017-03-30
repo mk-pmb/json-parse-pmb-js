@@ -1,0 +1,42 @@
+{ "name": "json-parse-pmb",
+  "version": "1.0.0",
+  "description": "Yet another try/catch for JSON#parse. This one returns your custom error token value in case of a SyntaxError (default: undefined), and passes all other errors to your custom error handler (default: re-throw).",
+  "keywords": [
+    "error",
+    "JSON.parse",
+    "json",
+    "parse",
+    "syntax",
+    "SyntaxError"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/json-parse-pmb-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/json-parse-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/json-parse-pmb-js/issues"
+  },
+
+  "private": false, "license": "ISC",
+
+  "main": "jp.js",
+  "scripts": {
+    "test": "nodejs test/all.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+
+  "dependencies": {
+  },
+  "browser": {},
+  "devDependencies": {
+    "equal-pmb": "^0.1.6"
+  },
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
